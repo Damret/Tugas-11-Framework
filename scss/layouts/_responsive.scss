@@ -1,0 +1,193 @@
+@media screen and (max-width:720px) {
+body{
+    button {
+        padding:0 0 20px 20px;
+        font-size: $font-norm !important;
+        font-weight: 300;
+        border: none;
+        background-color: transparent;
+        color: $color-contentA;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+    header {
+        .nav{
+            display: none;
+        }
+
+        .nav-link {
+            display: none !important;
+        }
+    }
+
+    .kesatu {
+        height: 310px;
+        background-size: cover;
+        background-position: center; 
+        padding-bottom: 50px;
+        .text-kesatu {
+            padding: 100px 0 10px 20px;
+        }
+         
+        p {
+            margin-bottom: 0;
+        }
+    
+        p:first-child {
+            font-size: $responsive-font-big; 
+            color: $color-contentA;
+            font-weight: 200;
+        }
+    
+        p:last-child {
+            font-size: $font-norm;
+            color: $color-contentA;
+            font-weight: 300;
+        }
+    }
+
+    .bagian2 {
+        height: 310px;
+        background-size: cover;
+        background-position: center; 
+        padding-bottom: 0;
+        .text-kedua {
+            padding: 40px 0 10px 20px;
+        }
+         
+        p {
+            margin-bottom: 0;
+        }
+    
+        p:first-child {
+            font-size: $responsive-font-big; 
+            color: $color-contentA;
+            font-weight: 200;
+        }
+    
+        p:last-child {
+            font-size: $font-norm;
+            color: $color-contentA;
+            font-weight: 300;
+        }
+    }
+
+    .bagian4 {
+        .row {
+            .col {
+                p:first-child {
+                    font-size: $font-display;
+                    padding-top: 40px;
+                    line-height: 30px;
+                }
+                p:nth-child(2){
+                    font-size: 15px;
+                }
+                img {
+
+                    background-position : center;
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .bagian5 {
+        height: 310px;
+        background-size: cover;
+        background-position: center; 
+        padding-bottom: 50px;
+        .text-kesatu {
+            padding: 100px 0 10px 20px;
+        }
+         
+        p {
+            margin-bottom: 0;
+        }
+    
+        p:first-child {
+            font-size: $responsive-font-big; 
+            color: $color-contentA;
+            font-weight: 200;
+        }
+    
+        p:last-child {
+            font-size: $font-norm;
+            color: $color-contentA;
+            font-weight: 300;
+        }
+    }
+
+    .bagian9{
+        p:first-child {
+            font-size: $font-med;
+            color:$color-contentB;
+            font-weight: 400;
+            padding: 60px 0 0 20px;
+            margin: 0;
+        }
+        p:nth-child(2) {
+            font-size: $font-display;
+            color: $color-contentB;
+            font-weight: 300;
+            margin: 0;
+            padding-left: 20px;
+        }
+        .row {
+            display: block;
+        }
+        .col:nth-child(2) {
+            height: 300px;
+        }
+    }
+
+    .bagian10{
+        p:first-child {
+            font-size: $font-med;
+            color:$color-contentA;
+            font-weight: 400;
+            padding: 40px 0 0 20px;
+            margin: 0;
+        }
+        p:nth-child(2) {
+            font-size: $responsive-font-small;
+            color: $color-contentA;
+            font-weight: 300;
+            margin: 0;
+            padding-left: 20px;
+        }
+        .row {
+            display: block;
+        }
+        .col:nth-child(2) {
+            height: 300px;
+        }
+    }
+
+    .bagian11{
+        p:first-child {
+            font-size: $font-med;
+            font-weight: 400;
+            padding: 40px 0 0 20px;
+            margin: 0;
+        }
+        p:nth-child(2) {
+            font-size: $responsive-font-small;
+            font-weight: 300;
+            margin: 0;
+            padding-left: 20px;
+        }
+        .row {
+            display: block;
+        }
+        .col:nth-child(2) {
+            height: 300px;
+        }
+        button {
+            color: $color-contentA;
+        }
+    }
+}
